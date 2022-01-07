@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+}
+.hero-left {
+    width: 50%;
+    padding-left: 7%;
+    margin-top: 100px;
+}
+.hero-left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 15px 0px;
+    border-left: 2px solid rgb(124, 124, 196);
+    padding-left: 5px;
+    
+}
+.hero-left p {
+    padding: 0px 10px 10px 0px;
+}
+.hero-right {
+    width: 50%;
+}
+.hero-right img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.mission-section {
+    margin: 0px 50px;
+}
+.mission-section h2 {
+    text-align: center;
+}
+.mission-parent-card {
+    display: flex;
+    width: 33.33%;
+    margin: 0px 50px; 
+}
+.first-card {
+    background-color: rgb(240, 167, 167);
+    border: none;
+    border-radius: 5px;
+    margin: 0px 30px;
+    padding: 30px;
+}
+.second-card {
+    background-color: rgb(154, 241, 154);
+    border: none;
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 30px;
+}
+.third-card {
+    background-color: rgb(173, 173, 243);
+    border: none;
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 30px;
+}
+.blog-section {
+    margin: 100px 0px;
+}
+.html-blog-div {
+    display: flex;
+    width: 70%;
+    padding-left: 7%;
+}
+.html {
+    width: 90%;
+}
+.html-blog-div-right {
+    /* padding-left: 40px; */
+    margin-top: 30px;
+}
+.css-blog-div {
+    display: flex;
+
+}
+.css {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.css-blog-div-right {
+  padding-left: 7%; 
+  margin-top: 30px; 
+}
+.form-section {
+    margin: 100px 0px;
+}
+.form-parent-div {
+    display: flex;
+}
+.form {
+    margin-top: 30px;
+}
+.map-div {
+    padding-left: 7%;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 70px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+.footer-div {
+    background-color: blue;
+    padding: 20px;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+}
+.footer-div h2 {
+    color: white;
+}
+.footer-div p {
+color: white;
+}
